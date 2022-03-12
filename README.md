@@ -16,3 +16,5 @@ Q layer: 0
 Name: Oxygen | Letter: O | Atomic Number: 8
 
 It is important to don't delete any file from the program, because it wouldn't work as it had to.
+
+IF YOU DON'T HAVE PYTHON INSTALLED, JUST OPEN THE EXECUTABLE FILE INSIDE THE 'DIST' FOLDER
