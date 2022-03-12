@@ -78,10 +78,39 @@ def distribution(e):
     print(f'O layer = {ov}')
     print(f'P layer = {pv}')
     print(f'Q layer = {qv}')
-     
-        
+
+
+
 line()
-en = int(input('Type a number of electrons to distribute: '))
+print("""Main menu
+[ 1 ] Start
+[ 2 ] About
+[ 3 ] Quit
+""")
+option = int(input('Choose an option: '))
 line()
-distribution(en)
-sleep(5)
+
+while option != 3:
+    if option == 1:
+        en = int(input('Type a number of electrons to distribute: '))
+        line()
+        distribution(en)
+        line()
+        print("""Main menu
+[ 1 ] Start
+[ 2 ] About
+[ 3 ] Quit
+        """)
+        option = int(input('Choose an option: '))
+        line()
+    
+    elif option == 2:
+        print("""This is a program made for education, more specifically made for chemistry or physics.""")
+        line()
+        break
+
+    elif option == 3:
+        break
+
+print('It was good to see you')
+sleep(2)
